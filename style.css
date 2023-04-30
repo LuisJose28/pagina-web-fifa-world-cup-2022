@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER GENERAL*/
+header{
+    position: fixed;
+    width: 100%;
+}
+
+/* HEADER SUPERIOR (1) */
+.header-uno{
+    height: 4vh;
+    width: 100%;
+    background-color: #000F42;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.header-uno a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #979A9A;
+    text-decoration: none;
+    padding-right: 22px;
+}
+
+.header-uno a:hover{
+    color: #fff;
+}
+
+
+
+
+/* HEADER SUPERIOR (2) */
+
+.header-dos{
+    height: 8.3vh;
+    width: 100%;
+    background-color: #00155F;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-dos-nav{
+    width: 97%;/* 96% del 100% del ancho de 'header-dos' */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.header-dos-nav a{
+    text-decoration: none;
+    color: #979A9A;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 64px;
+}
+
+.header-dos-nav-menu{   /* Icono de menu en el header 2 */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #253777;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.header-dos-nav-menu a{    /* Icono de menu en el header 2 */
+    color: white;
+    font-size: 16px;
+}
+
+.header-dos a.header-dos-nav-copa-mundial-fifa{ /* Texto en negrita del header 2 */
+    color: #fff;
+}
+
+.header-dos-nav a:hover{
+    color: #fff;
+}
+
+
+.header-dos-nav img{ /* Imagen del header 2 */
+    width: 105px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header-dos-nav-idioma{ /* Idioma del header 2 */
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 23px;
+    width: 47px;
+    border-radius: 5px;
+    background-color: #253777;
+}
+
+.header-dos-nav-idioma a{ /* Idioma del header 2 */
+    color: #fff;
+}
+
+.header-dos-nav-idioma i{ /* Icono del idioma del header 2 */
+    font-size: 10px;
+    padding-left: 2px;
+}
+
+.header-dos-nav-buscar{ /* Icono del buscar del header 2 */
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 101px;
+    border-radius: 20px;
+    background-color: #253777;
+}
+
+.header-dos-nav-buscar a{ /* Buscar del header 2 */
+    color: #979A9A;
+    font-size: 12px;
+}
+
+.header-dos-nav-buscar i{ /* Icono del buscar del header 2 */
+    color: #fff;
+    font-size: 20px;
+    padding-right: 7px;
+    
+}
+
+.header-dos-nav-usuario i{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+/* HEADER SUPERIOR (3) */
+.header-tres{
+    height: 5vh;
+    width: 100%;
+    background-color: #550065;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.header-tres a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #979A9A;
+    text-decoration: none;
+    padding-left: 38px;
+}
+
+.header-tres a.header-tres-nav-copa-mundial-2022{
+    color: #fff;
+}
+
+.header-tres a:hover{
+    color: #fff;
+}
